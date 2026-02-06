@@ -6,6 +6,9 @@
 ![API](https://img.shields.io/badge/API-TMDB-fcba03)
 
 
+
+![MovieRecommendation](https://github.com/user-attachments/assets/7da166cc-050d-4fb4-b048-8e46b926a347)
+
 Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
